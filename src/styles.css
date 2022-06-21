@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 1rem auto;
+}
+input {
+  outline: none;
+  border: 3px solid crimson;
+  font-size: 1.4rem;
+  padding: 4px;
+  margin-bottom: 1rem;
+}
+.error {
+  margin-top: 2rem;
+  color: rgb(255, 19, 10);
+  font-size: 1.4rem;
+}
+button {
+  outline: none;
+  border: none;
+  background-color: crimson;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin-top: 2rem;
+}
+li {
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 3px black;
+  padding: 6px;
+  font-size: 1.3rem;
+}
+a {
+  float: right;
+  color: red;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
